@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed(){
+
         Log.d("MainActivity","backbutton")
         if(isDouble==true){
             finish()
